@@ -3,7 +3,7 @@ Overlay-Screen for Counter Strike: Global Offensive that displays a fish-eye len
 
 If you have the ability to enable DSR (Dynamic Super Resolution) you will see a much better effect, otherwise because there is no texture sampling there will be some aliasing.
 
-The default settings are to my preference, but I have added some controls. Make sure the app has focus (clicking on the taskbar or atl-tab) then use the following keys:
+The default settings are to my preference, but I have added some controls. Make sure the app has focus (clicking on the taskbar or alt-tab) then use the following keys:
 
      -q : increase size - Caution: this will cause performance issues at higher levels.
      -a : decrease size
