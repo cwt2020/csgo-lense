@@ -1,7 +1,7 @@
 # csgo-lense
 Overlay-Screen for Counter Strike: Global Offensive that displays a fish-eye lens as your cross-hair.
 
-Installation Note: If you receive vcruntime140.dll missing error you will need to download [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
+Installation Note: This is built to run on the latest version of Windows 10. If you receive vcruntime140.dll missing error you will need to download [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
 
 Pre-Requisite:
   CSGO must be running in Fullscreen Windowed Display Mode on primary monitor.
