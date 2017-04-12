@@ -1,5 +1,5 @@
 # csgo-lense
-Overlay-Screen for Counter Strike: Global Offensive that displays a fish-eye lens as your cross-hair.
+Overlay-Screen for Counter Strike: Global Offensive that displays a zoomable lens as your cross-hair.
 
 Installation Note: This is built to run on the latest version of Windows 10. If you receive vcruntime140.dll missing error you will need to download [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
 
@@ -27,7 +27,7 @@ Turn off your standard crosshair
 How it works:
 
   Using WINAPI to create a window that is inactive and your mouse passes through.
-  The program then screen captures the csgo window and creates barrel effect. There is no dll injection and little chance that VAC or Overwatch chould detect this as any kind of hack. Remember use at your own risk. 
+  The program then screen captures the csgo window and creates zoom effect. There is no dll injection and little chance that VAC or Overwatch chould detect this as any kind of hack. Remember use at your own risk. 
   
 
-Please update me with your experiences. I would like to develope this further, add options, suggestions welcome!
+Please update me with your experiences. I would like to develope this further, add options, and custom crosshair selector. Suggestions welcome!
