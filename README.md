@@ -1,6 +1,12 @@
 # csgo-lense
 Overlay-Screen for Counter Strike: Global Offensive that displays a fish-eye lens as your cross-hair.
 
+Installation Note: If you receive vcruntime140.dll missing error you will need to download [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
+
+Pre-Requisite:
+  CSGO must be running in Fullscreen Windowed Display Mode on primary monitor.
+  Check setting go to "HELP & OPTIONS -> VIDEO SETTINGS -> Display Mode
+
 If you have the ability to enable DSR (Dynamic Super Resolution) you will see a much better effect, otherwise because there is no texture sampling there will be some aliasing.
 
 The default settings are to my preference, but I have added some controls. Make sure the app has focus (clicking on the taskbar or alt-tab) then use the following keys:
@@ -9,18 +15,11 @@ The default settings are to my preference, but I have added some controls. Make 
      -a : decrease size
      -w : increase zoom 
      -s : decrease zoom
-     
- The following change the level of defromation. Think of them as control points on a Bezier curve 
- 
-     -e : increase c1
-     -d : decrease c1
-     -r : increase c2
-     -f : decrease c2
- 
-Pre-Requisite:
-  CSGO must be running in Fullscreen Windowed Display Mode on primary monitor.
-  Check setting go to "HELP & OPTIONS -> VIDEO SETTINGS -> Display Mode
-  
+     -e : increase inner circle size
+     -d : decrease inner circle size
+     -r : increase outer circle distortion
+     -f : decrease outer circle distortion
+
 Turn off your standard crosshair
     
     open console (~) type: crosshair 0
